@@ -12,3 +12,13 @@ TEST_CASE("Verify sum_numbers function")
 	REQUIRE(add_numbers(10, 10) == 20);
 }
 
+TEST_CASE("verify multily_numbers fuction")
+{
+	REQUIRE(multiply_numbers(2, 2) == 4);
+	REQUIRE(multiply_numbers(3, 3) == 9);
+	REQUIRE(multiply_numbers(5, 5) == 25);
+}
+
+
+
+
