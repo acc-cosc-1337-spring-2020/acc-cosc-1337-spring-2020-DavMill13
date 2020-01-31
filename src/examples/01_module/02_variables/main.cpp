@@ -9,13 +9,13 @@ int main()
 	display_number(10);
 	display_number(20);
 
-	int num = 5;
+	int num = 4;
 
 	cout << square_number(num) << "\n";
 
 	cout << num;
 
-	int num1 = square_number(5);
+	int num1 = square_number(4);
 	
 	return 0;
 }
