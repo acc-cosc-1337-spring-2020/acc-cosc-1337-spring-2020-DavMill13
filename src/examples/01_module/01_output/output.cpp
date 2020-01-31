@@ -2,4 +2,7 @@
 
 #include <iostream>
 
-
+int return_value()
+{
+	return 10;
+}

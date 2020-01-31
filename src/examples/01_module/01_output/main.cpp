@@ -5,7 +5,7 @@ using std::cout;
 
 int main() 
 {
-	cout<<"Hello World!";
+	//cout<<return_value();
 
 	return 0;
 }
