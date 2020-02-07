@@ -26,7 +26,7 @@ string get_generation(int year)
 	}
 	else if (year >= 1946 && year <= 1964)
 	{
-		return "Baby boomer";
+		return "Baby Boomer";
 	}
 	else if (year >= 1925 && year <= 1945)
 	{
