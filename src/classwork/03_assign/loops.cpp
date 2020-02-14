@@ -1,3 +1,4 @@
+#include "loops.h"
 /*
 WITH LOOP OF YOUR CHOICE:
 Write code for function factorial that accepts an int num

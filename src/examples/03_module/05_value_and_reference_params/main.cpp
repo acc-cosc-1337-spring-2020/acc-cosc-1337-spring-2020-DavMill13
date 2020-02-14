@@ -8,7 +8,7 @@ int main()
 	cout << "Value of num is: " << num << " Address is " << &num;
 
 	int &num_ref = num;
-	num_ref = 10
+	num_ref = 10;
 	cout << "\nValue of num is: " << num << " Address is " << &num;
 
 	return 0;

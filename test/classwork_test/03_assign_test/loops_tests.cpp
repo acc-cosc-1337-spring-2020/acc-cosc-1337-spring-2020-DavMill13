@@ -2,7 +2,13 @@
 #include "catch.hpp"
 #include "loops.h"
 
-TEST_CASE("Verify Test Configuration", "verification") {
+TEST_CASE("Verify Test Configuration", "verification") 
+{
 	REQUIRE(true == true);
+}
+
+TEST_CASE("Test for the Factorial functions with values")
+{
+
 }
 
