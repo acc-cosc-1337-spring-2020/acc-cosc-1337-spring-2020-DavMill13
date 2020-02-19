@@ -44,14 +44,29 @@ void loop_string_w_auto(const std::string & str)
 
 }
 
-void loop_vector_w_index() 
+void loop_string_w_auto_value(const std::string &str)
 {
-	vector<int> nums = {9, 10, 99, 5,67 };
+	for (auto ch : str)
+	{
+		ch = 'z';
+	}
 
-	for (int i = 0; i < nums.size(); ++i) 
+}
+
+void loop_string_w_auto_ref(std::string &str)
+{	
+	for (auto &ch : str)
+	{
+		ch = 'z';
+	}
+}
+
+void loop_vector_w_index()
+{
+	vector<int> nums = { 9, 10, 99, 5,67 };
+
+	for (int i = 0; i < nums.size(); ++i)
 	{
 		std::cout << nums[i] << "\n";
 	}
 }
-
-
