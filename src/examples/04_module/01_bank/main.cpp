@@ -14,6 +14,9 @@ int main()
 	auto c{ 'c' };
 	auto flag{ true };
 
+	BankAccount a;
+	cout << a.get_balance();
+
 	std::vector<BankAccount> accounts{ BankAccount(100),
 		BankAccount(200) };
 	for (auto act : accounts)
