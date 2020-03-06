@@ -24,7 +24,7 @@ int main()
 	for (auto act : rectangle)	
 	{
 		cout << act;
-		//cout << act.get_area() << "\n";
+		
 		
 		total += act.get_area();
 
