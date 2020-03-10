@@ -10,7 +10,7 @@ bool TicTacToe::game_over()
 
 void TicTacToe::start_game(string first_player)
 {
-	if (first_player != "O" || first_player != "X")
+	if (!(first_player == "O" || first_player == "X"))
 
 	{
 
@@ -27,7 +27,7 @@ void TicTacToe::start_game(string first_player)
 
 void TicTacToe::mark_board(int position)
 {
-	if (position > 9 && position < 1)
+	if (position < 1 || position > 9)
 
 	{
 
